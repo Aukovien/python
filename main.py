@@ -1,4 +1,9 @@
-def main():
-    print("Hello!")
+def name():
+    name = input("Please enter your name: ")
+    return name;
 
-main()
+def main():
+    print("Hello " + name())
+
+if __name__ == "__main__":
+    main()
